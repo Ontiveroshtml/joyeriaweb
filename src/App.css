@@ -1,0 +1,22 @@
+/* App.css */
+.bottom-tab-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1c1c1e;
+  padding: 10px 0;
+}
+
+.bottom-tab-nav a {
+  color: #B0C4DE;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.bottom-tab-nav a.active {
+  color: #FFD700;
+  font-weight: bold;
+}
